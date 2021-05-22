@@ -1,0 +1,24 @@
+package Day9;
+
+/* ${@Author} created on 08.04.2021 inside the package - Day9 */
+public class Teacher extends Human{
+    private String subject;
+
+    public Teacher(String name, String subject) {
+        super(name);
+        this.subject = subject;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public void printInfo(){
+        super.printinfo();
+        System.out.println("Это преподаватель с именем "+name);
+    }
+}
