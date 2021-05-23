@@ -1,6 +1,15 @@
 package Day11;
 
-/* ${@Author} created on 09.04.2021 inside the package - Day11 */
+/**
+ * На складе происходит сборка и упаковка интернет-заказа.
+ * Создайте классы:
+ * - “Склад” (англ. Warehouse ). Поля: countOrder (количество собранных
+ * заказов), balance (доход от доставленных заказов). Get и set методы для
+ * обоих полей. Для получения информации о значениях полей склада
+ * переопределите метод toString() .
+ * - “Сборщик” (англ. Picker ), с полем salary , только get метод.
+ * - “Курьер” (англ. Courier ), с полем salary , только get метод.
+ */
 public class Warehouse {
     private int countOrder;
     private int balance;

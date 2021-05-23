@@ -1,9 +1,15 @@
 package Day4;
 
-import java.util.Arrays;
+
 import java.util.Random;
 
-/* ${@Author} created on 04.04.2021 inside the package - Day4 */
+/*
+Заполнить двумерный массив (матрицу) случайными числами от 0 до 50. Размер
+матрицы задать m=12 , n=8 ( m - размерность по строкам, n - размерность по колонкам).
+В консоль вывести индекс строки, сумма чисел в которой максимальна. Если таких
+строк несколько, вывести индекс последней из них.
+ */
+
 public class Task3 {
     public static void main(String[] args) {
         Random rand = new Random();
@@ -23,7 +29,5 @@ public class Task3 {
             }
         }
         System.out.println(maxSumIndex);
-
-        //System.out.println(Arrays.deepToString(arr));
     }
 }

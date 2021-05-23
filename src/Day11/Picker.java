@@ -1,6 +1,6 @@
 package Day11;
 
-/* ${@Author} created on 09.04.2021 inside the package - Day11 */
+
 public class Picker implements Worker{
     private int salary;
     private Warehouse warehouse;

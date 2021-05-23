@@ -1,6 +1,5 @@
 package Day5;
 
-/* ${@Author} created on 06.04.2021 inside the package - Day5 */
 public class Motorbike {
     private int year;
     private String color;

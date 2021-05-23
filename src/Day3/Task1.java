@@ -2,7 +2,12 @@ package Day3;
 
 import java.util.Scanner;
 
-/* ${@Author} created on 01.04.2021 inside the package - Day3 */
+/*
+Реализовать программу, которая в консоль выводит название страны, принимая на
+вход название города. Программа должна работать до тех пор, пока не будет введено
+слово “ Stop ”.
+ */
+
 public class Task1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

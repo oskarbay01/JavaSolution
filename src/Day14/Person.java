@@ -1,6 +1,6 @@
 package Day14;
 
-/* Askar created on 22.05.2021 inside the package - Day14 */
+
 public class Person {
     private String name;
     private int age;

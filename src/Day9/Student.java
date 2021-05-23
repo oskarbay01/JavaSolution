@@ -1,6 +1,5 @@
 package Day9;
 
-/* ${@Author} created on 08.04.2021 inside the package - Day9 */
 public class Student extends Human{
     private String groupName;
 

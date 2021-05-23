@@ -5,7 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Random;
 
-/* Askar created on 22.05.2021 inside the package - Day16 */
+/**
+ * 
+ *  */
 public class Task2 {
     public static void main(String[] args) throws FileNotFoundException {
         Random random = new Random();

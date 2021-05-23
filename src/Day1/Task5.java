@@ -2,7 +2,11 @@ package Day1;
 
 import java.util.Scanner;
 
-/* Пользователь created on 01.04.2021 inside the package - Day1 */
+/*
+Объявите переменную типа int , имя переменной - k . Присвойте этой переменной
+какую-нибудь цифру от 1 до 9. Используя цикл на ваше усмотрение ( for или while )
+ */
+
 public class Task5 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

@@ -2,7 +2,11 @@ package Day2;
 
 import java.util.Scanner;
 
-/* ${@Author} created on 01.04.2021 inside the package - Day2 */
+/*
+Реализовать программу, которая принимает на вход через консоль с помощью
+класса Scanner , число, соответствующее количеству этажей в здании. Используя
+условный оператор if , необходимо вывести в консоль сообщение о типе такого дома
+ */
 public class Task1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

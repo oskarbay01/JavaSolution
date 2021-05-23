@@ -5,7 +5,13 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-/* Askar created on 22.05.2021 inside the package - Day16 */
+/**
+ * Реализовать программу, записывающую числа разных типов в 2 файла.
+ * Файл 1 должен называться “file1.txt”, а Файл 2 должен называться “file2.txt”.
+ * Оба файла должны находиться в корне проекта. Создаваться файлы должны не
+ * вручную, а при запуске программы
+ */
+
 public class Task {
     public static void main(String[] args) throws FileNotFoundException, ArrayIndexOutOfBoundsException {
         File file = new File("file\\shoes.csv");

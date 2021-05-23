@@ -2,7 +2,12 @@ package Day12;
 
 import java.util.ArrayList;
 
-/* ${@Author} created on 20.04.2021 inside the package - Day12 */
+/**
+ * Создать список строк, добавить в него 5 марок автомобилей, вывести список в
+ * консоль. Добавить в середину еще 1 автомобиль, удалить самый первый автомобиль
+ * из списка. Распечатать список.
+ */
+
 public class Task1 {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<>();

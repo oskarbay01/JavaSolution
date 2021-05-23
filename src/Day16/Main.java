@@ -4,7 +4,14 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-/* Askar created on 22.05.2021 inside the package - Day16 */
+/**
+ * Реализовать программу, которая на вход принимает txt файл с целыми числами
+ * (можно использовать файл из задания 1 дня 14) и в качестве ответа выводит в
+ * консоль среднее арифметическое этих чисел.
+ * Ответ будет являться вещественным числом. В консоль необходимо вывести полную
+ * запись вещественного числа (со всеми знаками после запятой) и сокращенную запись
+ * (с 3 знаками после запятой).
+ */
 public class Main {
     public static void main(String[] args) {
         File file = new File("C:\\Users\\Пользователь\\IdeaProjects\\JavaMarathon\\src\\input.txt");
